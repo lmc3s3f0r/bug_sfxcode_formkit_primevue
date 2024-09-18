@@ -6,10 +6,10 @@
       PRIMEVUE EXAMPLE (no FormKit)
     </h1>
     <div>Input: <InputText placeholder="PrimeVue" /></div>
-    <div>
+    <!-- <div>
       Editor:
       <Editor v-model="editorValue" editorStyle="height: 320px" />
-    </div>
+    </div> -->
     <div>Textarea:<Textarea v-model="textareaValue" rows="5" cols="30" /></div>
     <div>
       Select:
@@ -26,7 +26,7 @@
 
 <script setup lang="ts">
 const textareaValue = ref("");
-const editorValue = ref("");
+// const editorValue = ref("");
 
 const selectedCity = ref();
 const cities = ref([
