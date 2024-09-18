@@ -1,0 +1,126 @@
+/* General */
+:root {
+  --cl-primary-0: #ffffff;
+  --cl-primary-50: rgb(239 246 255);
+  --cl-primary-100: rgb(219 234 254);
+  --cl-primary-200: rgb(191 219 254);
+  --cl-primary-300: rgb(147 197 253);
+  --cl-primary-400: rgb(96 165 250);
+  --cl-primary-500: rgb(59 130 246);
+  --cl-primary-600: rgb(37 99 235);
+  --cl-primary-700: rgb(29 78 216);
+  --cl-primary-800: rgb(30 64 175);
+  --cl-primary-900: rgb(30 58 138);
+  --cl-primary-950: rgb(23 37 84);
+  --cl-secondary-50: rgb(249 250 251);
+  --cl-secondary-100: rgb(243 244 246);
+  --cl-secondary-200: rgb(229 231 235);
+  --cl-secondary-300: rgb(209 213 219);
+  --cl-secondary-400: rgb(156 163 175);
+  --cl-secondary-500: rgb(107 114 128);
+  --cl-secondary-600: rgb(75 85 99);
+  --cl-secondary-700: rgb(55 65 81);
+  --cl-secondary-800: rgb(31 41 55);
+  --cl-secondary-900: rgb(17 24 39);
+  --cl-secondary-950: rgb(3 7 18);
+  --cl-bluegray-50: #f8fafc;
+  --cl-bluegray-100: #f1f5f9;
+  --cl-bluegray-200: #e2e8f0;
+  --cl-bluegray-300: #cbd5e1;
+  --cl-bluegray-400: #94a3b8;
+  --cl-bluegray-500: #64748b;
+  --cl-bluegray-600: #475569;
+  --cl-bluegray-700: #334155;
+  --cl-bluegray-800: #1e293b;
+  --cl-bluegray-900: #0f172a;
+
+  --cl-grayscale-50: rgb(249, 249, 249);
+  --cl-grayscale-100: rgb(236, 236, 236);
+  --cl-grayscale-200: rgb(222, 222, 222);
+  --cl-grayscale-300: rgb(206, 206, 206);
+  --cl-grayscale-400: rgb(186, 186, 186);
+  --cl-grayscale-500: rgb(160, 160, 160);
+  --cl-grayscale-600: rgb(132, 132, 132);
+  --cl-grayscale-700: rgb(108, 108, 108);
+  --cl-grayscale-800: rgb(89, 89, 89);
+  --cl-grayscale-900: rgb(63, 63, 63);
+  --cl-grayscale-950: rgb(39, 39, 39);
+
+  --cl-success-50: rgb(243, 252, 243);
+  --cl-success-100: rgb(215, 244, 214);
+  --cl-success-200: rgb(183, 235, 181);
+  --cl-success-300: rgb(145, 225, 143);
+  --cl-success-400: rgb(90, 210, 87);
+  --cl-success-500: rgb(72, 181, 69);
+  --cl-success-600: rgb(59, 150, 57);
+  --cl-success-700: rgb(48, 123, 47);
+  --cl-success-800: rgb(40, 102, 39);
+  --cl-success-900: rgb(28, 72, 27);
+  --cl-success-950: rgb(18, 44, 17);
+
+  --cl-warning-50: rgb(254, 249, 242);
+  --cl-warning-100: rgb(251, 234, 213);
+  --cl-warning-200: rgb(247, 218, 180);
+  --cl-warning-300: rgb(243, 199, 143);
+  --cl-warning-400: rgb(238, 173, 92);
+  --cl-warning-500: rgb(229, 139, 25);
+  --cl-warning-600: rgb(189, 114, 20);
+  --cl-warning-700: rgb(155, 94, 17);
+  --cl-warning-800: rgb(128, 78, 14);
+  --cl-warning-900: rgb(91, 55, 10);
+  --cl-warning-950: rgb(56, 34, 6);
+
+  --cl-error: #dc2626;
+  --cl-fav: rgba(251, 191, 36);
+
+  --cl-favourite-50: rgb(254 249 235);
+  --cl-favourite-100: rgb(252 235 189);
+  --cl-favourite-200: rgb(250 220 135);
+  --cl-favourite-300: rgb(246 201 76);
+}
+
+/* Globally */
+
+* {
+  user-select: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
